@@ -21,7 +21,8 @@ class SocialMappingModel extends Model {
                     'idvideo',
                     'url',
                     'type',
-                    'content'
+                    'content',
+                    'source'
                 );
                 break;
             case 'facebook':
@@ -34,7 +35,8 @@ class SocialMappingModel extends Model {
                     'name',
                     'place',
                     'type',
-                    'content'
+                    'content',
+                    'source'
                 );
                 break;
             case 'flickr':
@@ -51,7 +53,8 @@ class SocialMappingModel extends Model {
                     'type',
                     'license',
                     'latitude',
-                    'longitude'
+                    'longitude',
+                    'source'
                 );
                 break;
             case 'instagram':
@@ -66,7 +69,8 @@ class SocialMappingModel extends Model {
                     'type',
                     'link',
                     'location',
-                    'content'
+                    'content',
+                    'source'
                 );
                 break;
         }
